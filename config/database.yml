@@ -52,4 +52,4 @@ production:
   <<: *default
   database: NUSModsCloud_production
   username: NUSModsCloud
-  password: <%= ENV['NUSMODSCLOUD_DATABASE_PASSWORD'] %>
+  host: <%= ENV['DATABASE_HOST'] %>
